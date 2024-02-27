@@ -7,7 +7,7 @@
 - Test if testsuite runs correctly by running `php artisan app:test-session-creation`
 - Set `crontab -e` so this automatically runs every 15 minutes:
 ```bash
-    * * * * * cd /var/www/LOCATION_TO_TESTSUITE && php artisan schedule:run >> /dev/null 2>&1
+* * * * * cd /var/www/LOCATION_TO_TESTSUITE && php artisan schedule:run >> /dev/null 2>&1
 ```
 - Enjoy!
 

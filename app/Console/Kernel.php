@@ -12,7 +12,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->command(TestSessionCreation::class)->everyFifteenMinutes();
+        //$schedule->command(TestSessionCreation::class)->everyFifteenMinutes();
         // $schedule->command('inspire')->hourly();
     }
 
