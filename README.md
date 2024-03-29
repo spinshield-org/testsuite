@@ -1,4 +1,5 @@
 # TESTSUITE
+Simple test suite that test opening game on spinshield api.
 
 ## Install
 - Copy `.env.example` to `.env`
